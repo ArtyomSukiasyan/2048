@@ -1,0 +1,15 @@
+export const blok = {
+  color2: 2,
+  color4: 4,
+  color8: 8,
+  color16: 16,
+  color32: 32,
+  color64: 64,
+  color128: 128,
+  color256: 256,
+  color512: 512,
+  color1024: 1024,
+  color2048: 2048,
+  color4096: 4096,
+  color8192: 8192,
+};

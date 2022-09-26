@@ -1,0 +1,103 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameBoard {
+  width: 416px;
+  height: 416px;
+  padding: 0.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(75, 85, 99);
+  justify-content: space-around;
+  align-items: center;
+}
+
+.numberBlok {
+  padding: 0.25rem;
+  background-color: rgba(0, 0, 0);
+  width: 6rem;
+  height: 6rem;
+}
+
+.number_thing {
+  width: 100px;
+  height: 40px;
+  margin-right: 40px;
+  border-radius: 15px;
+  font-size: 32px;
+  background: #000;
+  color: rgb(74, 175, 44);
+  transition: all 0.5s ease;
+}
+
+.blokchilth {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: cornsilk;
+  color: black;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  width: 100%;
+  height: 100%;
+}
+
+.blokchilth22 {
+  background-color: rgb(206, 247, 212);
+}
+
+.blokchilth2 {
+  background-color: rgb(240, 211, 98);
+}
+
+.blokchilth4 {
+  background-color: rgb(177, 151, 47);
+}
+
+.blokchilth8 {
+  background-color: rgb(219, 203, 137);
+}
+
+.blokchilth16 {
+  background-color: rgb(216, 96, 60);
+}
+
+.blokchilth32 {
+  background-color: rgb(241, 65, 11);
+}
+
+.blokchilth64 {
+  background-color: rgb(233, 155, 131);
+}
+
+.blokchilth128 {
+  background-color: rgb(145, 96, 82);
+}
+
+.blokchilth256 {
+  background-color: rgb(110, 180, 125);
+}
+
+.blokchilth512 {
+  background-color: rgb(207, 144, 176);
+}
+
+.blokchilth1024 {
+  background-color: rgb(235, 144, 179);
+}
+
+.blokchilth2048 {
+  background-color: rgb(109, 171, 207);
+}
+
+.blokchilth4096 {
+  background-color: rgb(192, 135, 157);
+}
+
+.blokchilth8192 {
+  background-color: rgb(103, 123, 161);
+}
