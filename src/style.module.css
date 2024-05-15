@@ -22,17 +22,6 @@
   height: 6rem;
 }
 
-.number_thing {
-  width: 100px;
-  height: 40px;
-  margin-right: 40px;
-  border-radius: 15px;
-  font-size: 32px;
-  background: #000;
-  color: rgb(74, 175, 44);
-  transition: all 0.5s ease;
-}
-
 .blokchilth {
   display: flex;
   flex-wrap: wrap;

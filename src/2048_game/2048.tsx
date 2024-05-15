@@ -9,7 +9,6 @@ import { IGameTableValue, ITable } from "../models/gameTable";
 const Game2048 = () => {
   const [gametablevalue, setGametablevalue] = useState<IGameTableValue>([]);
   const [table, setTable] = useState<ITable>([]);
-  const [points, setPoints] = useState<number>(0);
 
   const move = (newMatrix: IGameTableValue): void => {
     if (gametablevalue.length !== 0) {
@@ -23,19 +22,6 @@ const Game2048 = () => {
       setTable(check(value));
     }
   };
-
-  useEffect(() => {
-    const gamePoints = gametablevalue.reduce((acc: any, item: any) => {
-      acc += item.reduce((acc2: any, item2: any) => {
-        acc2 += item2;
-        return acc2;
-      });
-
-      return acc;
-    }, 0);
-
-    setPoints(gamePoints);
-  }, [gametablevalue]);
 
   useEffect(() => {
     let value: IGameTableValue = [];
@@ -61,8 +47,6 @@ const Game2048 = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.number_thing}>{points}</div>
-
       <div className={styles.gameBoard}>{table}</div>
     </div>
   );
